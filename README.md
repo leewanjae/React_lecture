@@ -8,20 +8,20 @@
 개인공부로 역량을 강화하기 위함.
 
 ## 2. 배우는 내용
-React 기초 문법 및 심화 문법
-UI 컴포넌트 설계 및 구축 방법
-React Router를 사용한 라우팅 설계
-이벤트 처리
-React 작동원리
-React hooks 딥다이브
-나만의 custom hooks 만들기
-Styled Components, CSS를 활용한 UI Styling
-Fragments & Portals 다루는 법
-Context API 와 Redux를 사용한 상태관리
-side effect 처리하는 법
-http 요청, 응답 처리법
-React with Next.js
-React with TypeScript
-토큰을 활용한 회원가입, 로그인 구현
-단위 테스트 기반의 개발 방법
-React 애플리케이션을 배포하는 법
+1. React 기초 문법 및 심화 문법
+2. UI 컴포넌트 설계 및 구축 방법
+3. React Router를 사용한 라우팅 설계
+4. 이벤트 처리
+5. React 작동원리
+6. React hooks 딥다이브
+7. 나만의 custom hooks 만들기
+8. Styled Components, CSS를 활용한 UI Styling
+9. Fragments & Portals 다루는 법
+10. Context API 와 Redux를 사용한 상태관리
+11. side effect 처리하는 법
+12. http 요청, 응답 처리법
+13. React with Next.js
+14. React with TypeScript
+15. 토큰을 활용한 회원가입, 로그인 구현
+16. 단위 테스트 기반의 개발 방법
+17. React 애플리케이션을 배포하는 법
