@@ -1,4 +1,5 @@
 import { Link, Form, redirect } from "react-router-dom";
+
 import classes from "./NewPost.module.css";
 import Modal from "../components/Modal";
 
@@ -29,7 +30,7 @@ export default NewPost;
 
 export async function action({ request }) {
   const formData = await request.formData();
-  const postData = Object.fromEntries(formData);
+  const postData = Object.fromEntries(formData); // { body: '...', author: '...' }
   await fetch("http://localhost:8080/posts", {
     method: "POST",
     body: JSON.stringify(postData),
@@ -37,5 +38,6 @@ export async function action({ request }) {
       "Content-Type": "application/json",
     },
   });
+
   return redirect("/");
 }
